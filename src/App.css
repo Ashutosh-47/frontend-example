@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  @media (max-aspect-ratio: 7/10) {
+  
+    .Box{
+        height: 100% !important;
+        width: 100% !important; 
+    }
+  
+    .top{
+        height: 10% !important;
+    }
+  
+    .toph{
+        margin: 8vw !important;
+        font-size: 5vw !important;
+        border-bottom: none !important;
+    }
+    
+    .close{
+        margin: 6vw !important;
+        height: 3vh !important;
+        width: 8vw!important;
+        transform: scale(2) !important;
+        font-size: 2.6vw !important;
+    }
+    .close:hover{
+        transform: scale(3.2) !important;
+    }
+  
+    .chatting{
+         height: 80% ;
+       }
+  
+       .sendBox{
+        height: 10% !important;
+    }
+  
+    #chat{
+        padding: 4vw !important;
+        font-size: 4.6vw !important;
+    }
+  
+    .toplevel{
+        padding: 3vw !important;
+        margin: 3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 4vw !important;
+    }
+    .sendbutton{
+        margin: 3vw !important;
+        height: 3vh !important;
+        width: 8vw!important;
+        transform: scale(2) !important;
+        font-size: 2.3vw !important;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+  

@@ -1,0 +1,21 @@
+.toplevel {
+    display: inline-block;
+    font-size: 20px ;
+    padding: 0.7vw;
+    margin: 1vw;
+    width: 50%;
+    border-radius: 0.6vw;
+    clear: both;
+    color: antiquewhite;
+}
+
+.right{
+    float: right;
+    background-color: blue;
+}
+
+.left{
+    float: left;
+    background-color: #9B2335;;
+    color: white;
+}

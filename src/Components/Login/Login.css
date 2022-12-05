@@ -1,0 +1,76 @@
+.Login{
+    background-image: url('/Images/put3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:  100vh ;
+    width: 100vw ;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.popup{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color:black;
+}
+
+ 
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid wheat ;
+    width: 40vw;
+}
+
+.name , .email{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+
+.btn{
+    margin-top: 15%;
+    padding: 10px;
+    font-size: 30px;
+    width: 105%;
+    border-radius: 20px;
+    background-color: #363945;
+    color:wheat;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.buttons , .popup {
+    transition: all 1.2s ease-in-out;  
+}
+
+button:hover{
+    transform: scale(1.1);  
+    cursor: pointer;
+}
+
+
+#name , #email{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 20px;
+    height: 5vh;
+    cursor: pointer;
+}
+
