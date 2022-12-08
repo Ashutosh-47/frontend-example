@@ -7,6 +7,8 @@ import ReactScrollToBottom from "react-scroll-to-bottom"
 
 let socket ;
 
+const ENDPOINT = "https://fungroupchat.adaptable.app/";
+
 export default function Chatroom() {
 
   const [id, setid] = useState("");
@@ -29,7 +31,7 @@ const enter = (e) =>  e.key === 'Enter' ? msgsend() : null  ;
 
 useEffect(() => {
 
-  socket = socketIo ( "http://localhost:5000/" , { transports: ['websocket'] });
+  socket = socketIo ( ENDPOINT , { transports: ['websocket'] });
 
   socket.on('connect', () => { setid(socket.id) } )
   
